@@ -1,3 +1,4 @@
+
 Taken the kernel patch from http://aron.ws/projects/lirc_rpi/ and turned it into a standalone
 module. The code has been modified to be not raspberry pi specific.
 Code is:
@@ -5,4 +6,9 @@ Code is:
  * Modified to be transmit only (don't care about receiving)
  * modified to be more generic.
  * Use different GPIO API.
+
+# Building the module 
+ 
+Run the following command :
+`./buildModule.sh`
 
